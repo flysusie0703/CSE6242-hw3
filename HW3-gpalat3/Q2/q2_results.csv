@@ -1,0 +1,63 @@
+Part 1a: top-5 most popular drop locations,,
+DOLocationID,number_of_dropoffs,
+74,22222,
+42,20905,
+41,18586,
+7,16580,
+75,16267,
+Part 1b: top-5 most popular pickup locations,,
+PULocationID,number_of_pickups,
+74,42968,
+75,40108,
+41,33491,
+7,26046,
+82,24785,
+Part 2: top-3 locations with the maximum overall activity,,
+locationID,total_activity,
+74,65190,
+75,56375,
+41,52077,
+Part 3: all the boroughs in the order of having the highest to lowest number of activities,,
+Borough,total_number_activities,
+Manhattan,436258,
+Brooklyn,366784,
+Queens,356076,
+Bronx,97754,
+Unknown,3145,
+Staten Island,967,
+EWR,116,
+Part 4: top 2 days of week with the largest number of (daily) average pickups - along with the values of average number of pickups on each of the two days,,
+day_of_week,avg_count,
+Friday,16043.86748,
+Thursday,15964.99354,
+Part 5: For each particular hour of a day (0 to 23 - 0 being midnight) - in their order from 0 to 23. Find the zone in Brooklyn borough with the LARGEST number of pickups,,
+hour_of_day,Zone,max_count
+0,Williamsburg (North Side),966
+1,Williamsburg (North Side),774
+2,Williamsburg (North Side),675
+3,Williamsburg (North Side),536
+4,Williamsburg (North Side),328
+5,East Williamsburg,128
+6,East New York,163
+7,Brooklyn Heights,437
+8,Brooklyn Heights,857
+9,Brooklyn Heights,1010
+10,Brooklyn Heights,893
+11,Brooklyn Heights,925
+12,Brooklyn Heights,889
+13,Fort Greene,878
+14,Fort Greene,1080
+15,Fort Greene,1310
+16,Fort Greene,1422
+17,Fort Greene,1415
+18,Fort Greene,1672
+19,Fort Greene,1616
+20,Fort Greene,1251
+21,Fort Greene,1172
+22,Fort Greene,979
+23,Williamsburg (North Side),1093
+Part 6: Which 3 different days of the January - in Manhattan - saw the largest percentage increment in pickups compared to previous day,,
+day, percent_change,
+22,58.3523,
+2,45.5355,
+7,27.383444,
